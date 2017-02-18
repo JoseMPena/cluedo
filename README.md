@@ -1,6 +1,4 @@
-![Ironhack Logo](https://i.imgur.com/1QgrNNw.png)
-
-# JS | Clue - Mixing objects and arrays
+# JS | Cluedo
 
 Do you remember this classic detective game?
 
@@ -9,33 +7,6 @@ Clue was a very popular game in the 90's. The plot starts with Mr. Boddy being k
 Hasbro, the toy maker company and owner of Clue, [recently changed](http://www.independent.co.uk/arts-entertainment/cluedo-first-new-character-dr-orchid-mrs-white-dead-1949-hasbro-a7118351.html) some of the characters bio. Use the bio to gather information from the characters.
 
 ![Clue Picture](https://i.imgur.com/AZWieq9.jpg =300)
-
-## Requirements
-
-- [Fork this repo](https://guides.github.com/activities/forking/)
-- Clone this repo into your `~/code/labs`
-
-## Submission Instructions
-
-Upon completion, run the following commands
-```
-$ git add .
-$ git commit -m "done"
-$ git push origin master
-```
-Navigate to your repo and create a Pull Request -from your master branch to the original repository master branch.
-
-In the Pull request name, add your name and last names separated by a dash "-"
-
-## Deliverables
-
-Write your JavaScript in the provided file. Submitting this file will be enough.
-
-## Iteration 1 - <small>Creating the cards</small>
-
-Clue has three different types of cards: *suspects*, *rooms*, and *weapons*. These three types of cards are always separated. Use data structures to model and create these cards.
-
-In order to do this, you will need to know the game's characters (possible killers), available weapons and house rooms.
 
 ### Game Characters
 
@@ -89,33 +60,4 @@ The game board represents the blueprints of a mansion and features fifteen diffe
 - Observatory
 - Theater
 - Guest house
-- A patio
-
-Create one data structure for each of the people, weapons and rooms described above. For example:
-
-```javascript
-var mrGreen = {
-  // Properties
-};
-
-var rope = {
-  // Properties
-}
-
-// etc
-```
-
-## Iteration 2 - <small>Creating and revealing the mystery</small>
-
- At the beginning of the game, players shuffle each one of the card stacks to create a combination of *suspect*, *weapon* and *room*. This will be the mystery to solve.
-
-1. Create a method to randomly select one element from a card stack.
-2. Create another function that calls the method above once for each card stack.
-3. Place the “Case File Confidential” in a virtual envelope. :wink:
-4. Create a method to reveal the mystery.
-
-## Extra Resources
-
-- [20 Mind-blowing facts about Cluedo.](http://whatculture.com/offbeat/20-mind-blowing-facts-you-didnt-know-about-cluedo)
-- [Wikipedia](https://en.wikipedia.org/wiki/Cluedo)
-- [Data Structures: Objects and Arrays](http://eloquentjavascript.net/04_data.html)
+- A backyard
