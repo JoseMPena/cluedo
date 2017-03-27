@@ -4,4 +4,7 @@
 
 function Weapon (name) {
     this.name = name;
+    return this;
 }
+
+module.exports.Weapon = Weapon;

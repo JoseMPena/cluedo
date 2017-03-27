@@ -4,4 +4,7 @@
 
 function Room (name) {
     this.name = name;
+    return this;
 }
+
+module.exports.Room = Room;
